@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+
+<body>
+
+
+    <form id="userForm">
+        <h2>Registration</h2>
+        <label for="name">
+            Name
+            <input type="text" name="name" id="name">
+        </label>
+        <label for="email">
+            @Mail
+            <input type="email" name="email">
+        </label>
+        <label for="password">
+            Password
+            <input type="password" name="password" id="password">
+        </label>
+
+        <button id="submit">Submit</button>
+    </form>
+
+    <div class="container">
+        <h2>Succesfully your Registration! Thank You</h2>
+
+
+        <p class="loginLink">Log In</p>
+
+    </div>
+
+    <div class="loginForm">
+        <h2>Log In</h2>
+        <form>
+            <label for="name">
+                Name
+                <input type="text" class="logName">
+            </label> 
+
+            <label for="password">
+                Password
+                <input type="password" class="logPassword">
+            </label>  
+            <label for="button">
+                <input type="button" id="loginBtn" value="Login">
+            </label>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#userForm{
+    border: solid green 1px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 30px 0;
+    margin: auto;
+    margin-top: 120px;
+}
+#userForm label{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%; 
+    padding: 12px 10px;
+    gap: 10px;
+    font-size: 15px;
+}
+#userForm label input{
+    padding: 6px 5px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: solid green 1px;
+}
+#userForm h2{
+    text-align: center;
+    padding: 12px 0 0 0 ;
+}
+#userForm #submit    {
+    border: solid green 1px; 
+    padding: 8px 5px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    color: black;
+    cursor: pointer;
+} 
+.container{ 
+    position: relative;
+    margin: auto;
+    margin-top: 120px;
+    width: 1200px;
+    height: 400px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container h2{
+    font-size: 45px;
+    text-shadow: 20px 10px 20px black; 
+}
+.container p{
+    font-size: 20px;
+    padding: 12px 0;
+}
+.container p span {
+    cursor: pointer;
+    color: blue;
+} 
+.container .loginLink {
+    font-size: 30px;
+    cursor: pointer; 
+    margin-top: 20px; 
+}
+.container .loginLink:hover{
+    color: blue;
+    text-shadow: 0 10px 20px blue;
+    transition: 1s;
+    font-size: 32px;
+} 
+.loginForm{
+    border: solid blue 1px;
+    height: auto ;   
+    width: fit-content;   
+    padding: 10px 30px;
+    margin: auto;
+    margin-top: 130px;
+    display: none;
+}
+.loginForm h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 12px 0;
+    color: blue;
+}
+.loginForm label{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+    font-size: 18px;
+}
+.loginForm input{
+    padding: 8px 40px;
+    font-size: 25px;
+}
+.loginForm label #loginBtn{
+    cursor: pointer;
+    border: solid blue 1px; 
+    background: transparent;
+} 
+
+
